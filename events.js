@@ -1,3 +1,10 @@
+/**
+ * Events object that search for declared evenst object in
+ * all child modules and then separate keys(event names and selectors) 
+ * and values(callback functions) which finally binds events to their
+ * selectors and call the callback function
+ * @type {Object}
+ */
 var Events = {
     config: {
         eventsModuleContext: null,
