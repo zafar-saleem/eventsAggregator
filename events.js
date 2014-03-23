@@ -1,4 +1,4 @@
-App.Core = {
+var Events = {
     config: {
         eventsModuleContext: null,
         handler: null
